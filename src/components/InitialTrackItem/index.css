@@ -1,0 +1,40 @@
+.image {
+  height: 70px;
+  width: 120px;
+  margin-right: 20px;
+}
+.items {
+  list-style: none;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.items1 {
+  display: flex;
+  align-items: center;
+}
+.item-head {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 400;
+}
+.item-para {
+  color: #3b82f6;
+  font-size: 16px;
+  font-weight: 300;
+  margin-right: 20px;
+}
+.items2 {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  background-color: transparent;
+}
